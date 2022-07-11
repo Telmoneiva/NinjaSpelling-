@@ -1,0 +1,25 @@
+E:\Telmo2\NinjaSpelling\NinjaSpelling\bin\Debug\NinjaSpelling.exe.config
+E:\Telmo2\NinjaSpelling\NinjaSpelling\bin\Debug\NinjaSpelling.exe
+E:\Telmo2\NinjaSpelling\NinjaSpelling\bin\Debug\NinjaSpelling.pdb
+E:\Telmo2\NinjaSpelling\NinjaSpelling\obj\Debug\NinjaSpelling.csprojResolveAssemblyReference.cache
+E:\Telmo2\NinjaSpelling\NinjaSpelling\obj\Debug\NinjaSpelling.Properties.Resources.resources
+E:\Telmo2\NinjaSpelling\NinjaSpelling\obj\Debug\NinjaSpelling.csproj.GenerateResource.Cache
+E:\Telmo2\NinjaSpelling\NinjaSpelling\obj\Debug\NinjaSpelling.csproj.CoreCompileInputs.cache
+E:\Telmo2\NinjaSpelling\NinjaSpelling\obj\Debug\NinjaSpelling.exe
+E:\Telmo2\NinjaSpelling\NinjaSpelling\obj\Debug\NinjaSpelling.pdb
+E:\Telmo2\NinjaSpelling\NinjaSpelling\obj\Debug\NinjaSpelling.Form1.resources
+E:\Telmo2\NinjaSpelling\NinjaSpelling\bin\Debug\NinjaSpelling.exe.manifest
+E:\Telmo2\NinjaSpelling\NinjaSpelling\bin\Debug\NinjaSpelling.application
+E:\Telmo2\NinjaSpelling\NinjaSpelling\obj\Debug\NinjaSpelling.exe.manifest
+E:\Telmo2\NinjaSpelling\NinjaSpelling\obj\Debug\NinjaSpelling.application
+E:\Telmo2\NinjaSpelling\NinjaSpelling\bin\Debug\Files\wordlist.txt
+C:\Users\User 1\Desktop\NinjaSpelling\NinjaSpelling\obj\Debug\NinjaSpelling.csprojResolveAssemblyReference.cache
+C:\Users\User 1\Desktop\NinjaSpelling\NinjaSpelling\obj\Debug\NinjaSpelling.Form1.resources
+C:\Users\User 1\Desktop\NinjaSpelling\NinjaSpelling\obj\Debug\NinjaSpelling.Properties.Resources.resources
+C:\Users\User 1\Desktop\NinjaSpelling\NinjaSpelling\obj\Debug\NinjaSpelling.csproj.GenerateResource.Cache
+C:\Users\User 1\Desktop\NinjaSpelling\NinjaSpelling\obj\Debug\NinjaSpelling.csproj.CoreCompileInputs.cache
+C:\Users\User 1\Desktop\NinjaSpelling\NinjaSpelling\obj\Debug\NinjaSpelling.exe
+C:\Users\User 1\Desktop\NinjaSpelling\NinjaSpelling\obj\Debug\NinjaSpelling.pdb
+C:\Users\User 1\Desktop\NinjaSpelling\NinjaSpelling\obj\Debug\NinjaSpelling.csprojAssemblyReference.cache
+C:\Users\User 1\Desktop\NinjaSpelling\NinjaSpelling\obj\Debug\NinjaSpelling.csproj.AssemblyReference.cache
+C:\Users\User 1\Desktop\NinjaSpelling\NinjaSpelling\obj\Debug\NinjaSpelling.csproj.SuggestedBindingRedirects.cache

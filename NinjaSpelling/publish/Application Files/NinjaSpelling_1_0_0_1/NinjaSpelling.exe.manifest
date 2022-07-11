@@ -1,0 +1,74 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<asmv1:assembly xsi:schemaLocation="urn:schemas-microsoft-com:asm.v1 assembly.adaptive.xsd" manifestVersion="1.0" xmlns:asmv1="urn:schemas-microsoft-com:asm.v1" xmlns="urn:schemas-microsoft-com:asm.v2" xmlns:asmv2="urn:schemas-microsoft-com:asm.v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:co.v1="urn:schemas-microsoft-com:clickonce.v1" xmlns:asmv3="urn:schemas-microsoft-com:asm.v3" xmlns:dsig="http://www.w3.org/2000/09/xmldsig#" xmlns:co.v2="urn:schemas-microsoft-com:clickonce.v2">
+  <asmv1:assemblyIdentity name="NinjaSpelling.exe" version="1.0.0.1" publicKeyToken="1768eec1ab0876ba" language="neutral" processorArchitecture="msil" type="win32" />
+  <application />
+  <entryPoint>
+    <assemblyIdentity name="NinjaSpelling" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+    <commandLine file="NinjaSpelling.exe" parameters="" />
+  </entryPoint>
+  <trustInfo>
+    <security>
+      <applicationRequestMinimum>
+        <PermissionSet Unrestricted="true" ID="Custom" SameSite="site" />
+        <defaultAssemblyRequest permissionSetReference="Custom" />
+      </applicationRequestMinimum>
+      <requestedPrivileges xmlns="urn:schemas-microsoft-com:asm.v3">
+        <!--
+          UAC Manifest Options
+          If you want to change the Windows User Account Control level replace the 
+          requestedExecutionLevel node with one of the following.
+
+        <requestedExecutionLevel  level="asInvoker" uiAccess="false" />
+        <requestedExecutionLevel  level="requireAdministrator" uiAccess="false" />
+        <requestedExecutionLevel  level="highestAvailable" uiAccess="false" />
+
+         If you want to utilize File and Registry Virtualization for backward 
+         compatibility then delete the requestedExecutionLevel node.
+    -->
+        <requestedExecutionLevel level="asInvoker" uiAccess="false" />
+      </requestedPrivileges>
+    </security>
+  </trustInfo>
+  <dependency>
+    <dependentOS>
+      <osVersionInfo>
+        <os majorVersion="5" minorVersion="1" buildNumber="2600" servicePackMajor="0" />
+      </osVersionInfo>
+    </dependentOS>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="Microsoft.Windows.CommonLanguageRuntime" version="4.0.30319.0" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="NinjaSpelling.exe" size="15848">
+      <assemblyIdentity name="NinjaSpelling" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>1l4/onaFIAGT92TiiHYhs9I/BKCN3boJB1zJDy43XRM=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <file name="Files\wordlist.txt" size="4370">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>oIy0TS7XyI/QY8lRxA5/CZRz9EKgX47hXv9cQl3j5dY=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="NinjaSpelling.exe.config" size="189">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>rl5/qDc7Jz+tB+BIbOv9iMGPlRe6YJwrjmU09dnlPcs=</dsig:DigestValue>
+    </hash>
+  </file>
+<publisherIdentity name="CN=DESKTOP-AKD9Q6K\Felipe" issuerKeyHash="c763f51441b9288aa07ee2fa064af609c4c100d0" /><Signature Id="StrongNameSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>SIVAtMUPqxc57LTQY5pityG7EgrC2Uq82LFOToMPrDo=</DigestValue></Reference></SignedInfo><SignatureValue>OUkG+S5VPY6T9JwXXA72DeADrZjQLbslFql2JczLYFFWbylukgg0EStpFEpVTfc2P2CYbJE2jnqm5fx7aefsA3Pd8siSjszm6KzIupbm2L3RwNM52exIAP5ojH0SpuI2rezN8WRZx/ZO73SX5KMtKR2tRcY3EuDvOCr00ZeEffU=</SignatureValue><KeyInfo Id="StrongNameKeyInfo"><KeyValue><RSAKeyValue><Modulus>1UriWIlxNfVF2D6UFXucBNZR89R6KmpDjl6SuY2jq85H0x5FYCQpnAGvC8PNqq425bsDoRcXopPTnSc1kB9HIFo4K91vnT5n0Qt2RQTX79IDR4t+xhoPr5dFTGH9l/trJ1o07SuuQgK4hJkLuKbQ8JUTwNHYqjGZPK2glnP/670=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><msrel:RelData xmlns:msrel="http://schemas.microsoft.com/windows/rel/2005/reldata"><r:license xmlns:r="urn:mpeg:mpeg21:2003:01-REL-R-NS" xmlns:as="http://schemas.microsoft.com/windows/pki/2005/Authenticode"><r:grant><as:ManifestInformation Hash="3aac0f834e4eb1d8bc4ad9c20a12bb21b7629a63d0b4ec3917ab0fc5b4408548" Description="" Url=""><as:assemblyIdentity name="NinjaSpelling.exe" version="1.0.0.1" publicKeyToken="1768eec1ab0876ba" language="neutral" processorArchitecture="msil" type="win32" /></as:ManifestInformation><as:SignedBy /><as:AuthenticodePublisher><as:X509SubjectName>CN=DESKTOP-AKD9Q6K\Felipe</as:X509SubjectName></as:AuthenticodePublisher></r:grant><r:issuer><Signature Id="AuthenticodeSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>hl873g2qEfed/pHxrPt0AWwMCQUi1undziC5kNyr9qE=</DigestValue></Reference></SignedInfo><SignatureValue>uR2bLVtnsfLxy8LpyRqRrQq8Gq0Y3x5QCb1izOFFFRwF3icBWV6RImq2zagG9ljJweHdVjUZQBON1awSWre0ern4tAXk80FuYZaOYqe+46d1vNqf1xNdaHwdSU1dVEROEJ2cCZGv39ore/XHMk6ouChx/skTV5uUx+wqflrnLuk=</SignatureValue><KeyInfo><KeyValue><RSAKeyValue><Modulus>1UriWIlxNfVF2D6UFXucBNZR89R6KmpDjl6SuY2jq85H0x5FYCQpnAGvC8PNqq425bsDoRcXopPTnSc1kB9HIFo4K91vnT5n0Qt2RQTX79IDR4t+xhoPr5dFTGH9l/trJ1o07SuuQgK4hJkLuKbQ8JUTwNHYqjGZPK2glnP/670=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><X509Data><X509Certificate>MIIB8TCCAVqgAwIBAgIQcr1PZciQj5VJc2yDTe7lbzANBgkqhkiG9w0BAQsFADA3MTUwMwYDVQQDHiwARABFAFMASwBUAE8AUAAtAEEASwBEADkAUQA2AEsAXABGAGUAbABpAHAAZTAeFw0xNzEyMTMyMTE0MjdaFw0xODEyMTQwMzE0MjdaMDcxNTAzBgNVBAMeLABEAEUAUwBLAFQATwBQAC0AQQBLAEQAOQBRADYASwBcAEYAZQBsAGkAcABlMIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQDVSuJYiXE19UXYPpQVe5wE1lHz1HoqakOOXpK5jaOrzkfTHkVgJCmcAa8Lw82qrjbluwOhFxeik9OdJzWQH0cgWjgr3W+dPmfRC3ZFBNfv0gNHi37GGg+vl0VMYf2X+2snWjTtK65CAriEmQu4ptDwlRPA0diqMZk8raCWc//rvQIDAQABMA0GCSqGSIb3DQEBCwUAA4GBAFndjUXCwHyp6JzAbY7c+gcoaKV/phyR9aYeHxHcTfGvyobozNKQX408H5CqooheSel61S+Z7qsZ0maUHzENSmgtlRlOJ7u/Sc65B93d/vV4NJF0ERl3y+uhuxHFv/2LN1m7kWovQQuLr2vmT3/BB+C9PxwjpDKgT5aKYOHzbTo0</X509Certificate></X509Data></KeyInfo></Signature></r:issuer></r:license></msrel:RelData></KeyInfo></Signature></asmv1:assembly>
